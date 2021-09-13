@@ -82,10 +82,12 @@ Build a FireContact App using ReactJS.
 
 **<p align="center">&#9786; Happy Coding &#9997;</p>**
 
-REACT_APP_API_KEY=
-REACT_APP_AUTH_DOMAIN=
-REACT_APP_DATABASE_URL=
-REACT_APP_PROJECT_ID=
-REACT_APP_STORAGE_BUCKET=
-REACT_APP_MESSAGING_SENDER_ID=
+## firebase.js should be changed according to these keys from your own firabase account!!!
+
+REACT_APP_API_KEY=\
+REACT_APP_AUTH_DOMAIN=\
+REACT_APP_DATABASE_URL=\
+REACT_APP_PROJECT_ID=\
+REACT_APP_STORAGE_BUCKET=\
+REACT_APP_MESSAGING_SENDER_ID=\
 REACT_APP_APP_ID=
