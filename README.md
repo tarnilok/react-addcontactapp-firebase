@@ -81,7 +81,7 @@ Build a FireContact App using ReactJS.
 - You can add additional functionalities to your app.
 
 
-## ❗❗❗ firebase.js should be changed according to these keys from your own firabase account!!!
+## ❗❗❗ env development keys
 
 REACT_APP_API_KEY=\
 REACT_APP_AUTH_DOMAIN=\
