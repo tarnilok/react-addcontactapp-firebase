@@ -1,22 +1,24 @@
 import { Button, Form, Grid, Segment } from "semantic-ui-react";
 import { options } from "../../utils/constants";
+
+
 const FormComponent = ({ info, setInfo, handleFormSubmit }) => {
 
   const handleInputChange = (e) => {
     // const name = e.target.name;
     // const value = e.target.value;
     const { name, value } = e.target;
-    setInfo({ ...info, [name]: value.toUpperCase() });
+    setInfo({ ...info, [name]: value.toUpperCase()});
   };
 
-  const handleOptionsChange = (_, result) => {
+  const handleOptionsChange = (_, result) => {    // event kullanmadığımız için boş alltan tire(_) kullandık.
     const { name, value } = result;
     setInfo({ ...info, [name]: value.toUpperCase() });
   };
 
   return (
     <Grid textAlign="center" verticalAlign="middle">
-      <Grid.Column style={{ width: "300px" }}>
+      <Grid.Column style={{ minWidth: "300px" }}>
         <div className="ui pilled segment">
           <div className="ui pilled brand">
             <a
@@ -25,11 +27,11 @@ const FormComponent = ({ info, setInfo, handleFormSubmit }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <code>{"<ChrisDev/>"}</code>
+              <code >{"🔗<ChrisDev/>🚀"}</code>
             </a>
           </div>
         </div>
-        <h2 className="contact-header">Addd Contact</h2>
+        <h2 className="contact-header">Add Contact</h2>
         <Form size="large" onSubmit={handleFormSubmit}>
  
            <Segment stacked>
